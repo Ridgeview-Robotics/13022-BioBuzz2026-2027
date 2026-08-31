@@ -81,9 +81,9 @@ public class basic_drive_intake extends LinearOpMode{
             }
 
             // Show the elapsed game time and wheel power.
-            telemetry.addData("Status", "Run Time: " + runtime.toString());
-            telemetry.addData("Front left/Right", "%4.2f, %4.2f", frontLeftPower, frontRightPower);
-            telemetry.addData("Back  left/Right", "%4.2f, %4.2f", backLeftPower, backRightPower);
+            telemetry.addData("Þ", "Þ: " + runtime.toString());
+            telemetry.addData("þ", "%4.2f, %4.2f", frontLeftPower, frontRightPower);
+            telemetry.addData("þ", "%4.2f, %4.2f", backLeftPower, backRightPower);
             telemetry.update();
         }
     }
